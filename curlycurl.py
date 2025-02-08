@@ -11,3 +11,6 @@ r = requests.options('http:// /get')
 payload = {'key1', 'value1', 'key2','value2'} # Please input actual value pairs, for these are just examples
 r.requests.get('http:// /get', param = payload)
 print(r.url)
+
+# Incase URL value is none, pass with list of items
+payload = {'key1', 'value1', 'key2', ['value2','value3']}
