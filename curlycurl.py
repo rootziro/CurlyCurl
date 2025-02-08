@@ -12,3 +12,4 @@ r = requests.options('http:// /get')
 payload = {'key1', 'value1', 'key2', 'value2'} # set value pairs are just examples
 r.requests.get('http:// /get', params=payload)
 print(r.url)
+
