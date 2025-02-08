@@ -14,3 +14,15 @@ print(r.url)
 
 # Incase URL value is none, pass with list of items
 payload = {'key1', 'value1', 'key2', ['value2','value3']}
+
+# Response Method
+
+r = requests.get('http:// /page')
+r.text()
+
+# Find encoding Requests is utilizing
+r = r.encoding()
+
+# Change encoding if nesessary 
+
+r.encoding = ''
